@@ -8,6 +8,7 @@ import ReactRedux from './components/ReactRedux';
 import ReduxFlow from './components/ReduxFlow';
 import AChatWithRedux from './components/AChatWithRedux';
 import DoINeedRedux from './components/DoINeedRedux';
+import FurtherReading from './components/FurtherReading';
 
 class App extends Component {
     render() {
@@ -32,6 +33,10 @@ class App extends Component {
                 <Step data={{x: 3000, y:0, scale: 1}}>
                     <AChatWithRedux />
                 </Step>
+                <Step data={{x: 4000, y:0, scale: 1}}>
+                    <FurtherReading />
+                </Step>
+
             </Impress>
         );
     }
