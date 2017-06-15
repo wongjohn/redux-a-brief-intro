@@ -19,3 +19,5 @@ yarn-error.log*
 # IDEA
 /.idea
 
+# Ignore the package-lock.json file
+package-lock.json
